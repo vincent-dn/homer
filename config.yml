@@ -143,7 +143,7 @@ services:
         url: "https://chat.apps.genisys.skynet.so.gfi-lab.net"
       - name: "MinIO"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
+        subtitle: "Stockage Amazon S3"
         url: "https://s3-admin.apps.genisys.skynet.so.gfi-lab.net"
       - name: "N8N"
         logo: "assets/tools/sample.png"
