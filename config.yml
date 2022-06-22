@@ -126,6 +126,7 @@ services:
         logostyle: "is-danger"
         subtitle: "Plateforme d'automatisation Ansible"
         tag: "platform"
+        tagstyle: "is-danger"
         keywords: "self hosted reddit" # optional keyword used for searching purpose
         url: "https://awx.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank" # optional html tag target attribute
