@@ -101,7 +101,7 @@ links:
     target: "_blank" # optional html tag target attribute
   - name: "Repo skynet"
     icon: "fa-brands fa-gitlab"
-    url: "https://github.com/vincent-dn/homer"
+    url: "https://gitlab.skynet.so.gfi-lab.net/skynet/skynet"
     target: "_blank" # optional html tag target attribute
     #url: "https://gitlab.skynet.so.gfi-lab.net/skynet/skynet"
   # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
