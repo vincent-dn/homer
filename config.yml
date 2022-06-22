@@ -98,7 +98,7 @@ links:
   - name: "Repo config Homer"
     icon: "fab fa-github"
     url: "https://github.com/vincent-dn/homer"
-    target: "_blank" # optional html tag target attribute
+    #target: "_blank" # optional html tag target attribute
   - name: "Repo skynet"
     icon: "fa-brands fa-gitlab"
     url: "https://gitlab.skynet.so.gfi-lab.net/skynet/skynet"
