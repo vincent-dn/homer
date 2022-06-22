@@ -98,10 +98,12 @@ links:
   - name: "Repo config Homer"
     icon: "fab fa-github"
     url: "https://github.com/vincent-dn/homer"
-    #target: "_blank" # optional html tag target attribute
+    target: "_blank" # optional html tag target attribute
   - name: "Repo skynet"
     icon: "fa-brands fa-gitlab"
-    url: "https://gitlab.skynet.so.gfi-lab.net/skynet/skynet"
+    url: "https://github.com/vincent-dn/homer"
+    target: "_blank" # optional html tag target attribute
+    #url: "https://gitlab.skynet.so.gfi-lab.net/skynet/skynet"
   # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
   # see url field and assets/page.yml used in this example:
   - name: "Second Page"
