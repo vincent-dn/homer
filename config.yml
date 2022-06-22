@@ -6,8 +6,8 @@
 # Using this will ignore remaining config in this file
 # externalConfig: https://example.com/server-luci/config.yaml
 
-title: "App dashboard"
-subtitle: "Homer"
+title: "Dashboard Applicatif"
+subtitle: "Skynet"
 # documentTitle: "Welcome" # Customize the browser tab text
 logo: "assets/logo.png"
 # Alternatively a fa icon can be provided:
@@ -95,13 +95,13 @@ message:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Link 1"
+  - name: "Repo config Homer"
     icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
+    url: "https://github.com/vincent-dn/homer"
     target: "_blank" # optional html tag target attribute
-  - name: "link 2"
-    icon: "fas fa-book"
-    url: "https://github.com/bastienwirtz/homer"
+  - name: "Repo skynet"
+    icon: "fa-brands fa-gitlab"
+    url: "https://gitlab.skynet.so.gfi-lab.net/skynet/skynet"
   # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
   # see url field and assets/page.yml used in this example:
   - name: "Second Page"
@@ -122,48 +122,56 @@ services:
         # Alternatively a fa icon can be provided:
         # icon: "fab fa-jenkins"
         subtitle: "Plateforme d'automatisation Ansible"
-        tag: "app"
+        tag: "platform"
         keywords: "self hosted reddit" # optional keyword used for searching purpose
         url: "https://awx.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank" # optional html tag target attribute
       - name: "Keycloak"
         logo: "assets/tools/sample2.png"
         subtitle: "Service de SSO"
-        tag: "app"
+        tag: "security"
         # Optional tagstyle
         tagstyle: "is-success"
         url: "https://auth.apps.genisys.skynet.so.gfi-lab.net"
       - name: "Kibana"
         logo: "assets/tools/sample.png"
         subtitle: "Dashboard d'exploitation"
+        tag: "dashboard"
         url: "https://kibana-bitnami.apps.genisys.skynet.so.gfi-lab.net"
       - name: "Mattermost"
         logo: "assets/tools/sample.png"
         subtitle: "Service de chat"
+        tag: "messaging"
         url: "https://chat.apps.genisys.skynet.so.gfi-lab.net"
       - name: "MinIO"
         logo: "assets/tools/sample.png"
         subtitle: "Stockage Amazon S3"
+        tag: "platform"
         url: "https://s3-admin.apps.genisys.skynet.so.gfi-lab.net"
       - name: "N8N"
         logo: "assets/tools/sample.png"
         subtitle: "Orchestrateur de workflows"
+        tag: "orchestrator"
         url: "https://n8n.apps.genisys.skynet.so.gfi-lab.net"
       - name: "NocoDB"
         logo: "assets/tools/sample.png"
         subtitle: "BDD NoCode"
+        tag: "database"
         url: "https://nocodb.apps.genisys.skynet.so.gfi-lab.net"
       - name: "pgAdmin"
         logo: "assets/tools/sample.png"
         subtitle: "Gestion des PostgreSQL"
+        tag: "database"
         url: "https://pgadmin.apps.genisys.skynet.so.gfi-lab.net"
       - name: "Uptime"
         logo: "assets/tools/sample.png"
         subtitle: "Service de monitoring"
+        tag: "dashboard"
         url: "https://uptime.apps.genisys.skynet.so.gfi-lab.net"
       - name: "Vault"
         logo: "assets/tools/sample.png"
         subtitle: "Hashicorp Vault - Gestion des secrets"
+        tag: "security"
         url: "https://vault.apps.genisys.skynet.so.gfi-lab.net"
   #- name: "Other group"
   #  icon: "fas fa-heartbeat"
