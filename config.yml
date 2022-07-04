@@ -136,9 +136,8 @@ services:
         icon: "fa-brands fa-redhat"
         subtitle: "Service de SSO"
         tag: "security"
-        tagstyle: "is-warning"
         # Optional tagstyle
-        tagstyle: "is-success"
+        tagstyle: "is-warning"
         url: "https://auth.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "Kibana"
