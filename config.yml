@@ -90,7 +90,7 @@ message:
   # refreshInterval: 10000
   # style: "is-warning"
   style: "is-success"
-  title: "Dashboard d'exploitation des services Skynet"
+  title: "Dashboard des services Skynet"
   # icon: "fa fa-exclamation-triangle"
   icon: "fa-brands fa-cloudscale"
   content: "Ce dashboard permet de centraliser un accès rapide aux services déployés dans le projet Inetum P&T Skynet."
