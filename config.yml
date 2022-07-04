@@ -9,9 +9,10 @@
 title: "Dashboard Applicatif"
 subtitle: "Skynet"
 # documentTitle: "Welcome" # Customize the browser tab text
-logo: "assets/logo.png"
+# logo: "assets/logo.png"
 # Alternatively a fa icon can be provided:
 # icon: "fas fa-skull-crossbones"
+icon: "fas fa-skull-crossbones"
 
 header: true # Set to false to hide the header
 # Optional: Different hotkey for search, defaults to "/"
@@ -82,11 +83,11 @@ message:
   # refreshInterval: 10000 # Optional: time interval to refresh message
   #
   # Real example using chucknorris.io for showing Chuck Norris facts as messages:
-  # url: https://api.chucknorris.io/jokes/random
-  # mapping:
-  #   title: 'id'
-  #   content: 'value'
-  # refreshInterval: 10000
+  url: https://api.chucknorris.io/jokes/random
+  mapping:
+    title: 'id'
+    content: 'value'
+  refreshInterval: 10000
   style: "is-warning"
   title: "Optional message!"
   icon: "fa fa-exclamation-triangle"
@@ -135,6 +136,7 @@ services:
         icon: "fa-brands fa-redhat"
         subtitle: "Service de SSO"
         tag: "security"
+        tagstyle: "is-warning"
         # Optional tagstyle
         tagstyle: "is-success"
         url: "https://auth.apps.genisys.skynet.so.gfi-lab.net"
@@ -143,48 +145,56 @@ services:
         icon: "fa-solid fa-chart-line"
         subtitle: "Dashboard d'exploitation"
         tag: "dashboard"
+        tagstyle: "is-info"
         url: "https://kibana-bitnami.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "Mattermost"
         icon: "fa-brands fa-rocketchat"
         subtitle: "Service de chat"
         tag: "messaging"
+        tagstyle: "is-info"
         url: "https://chat.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "MinIO"
         icon: "fa-solid fa-box-open"
         subtitle: "Stockage Amazon S3"
         tag: "platform"
+        tagstyle: "is-danger"
         url: "https://s3-admin.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "N8N"
         icon: "fa-solid fa-gear"
         subtitle: "Orchestrateur de workflows"
         tag: "orchestrator"
+        tagstyle: "is-success"
         url: "https://n8n.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "NocoDB"
         icon: "fa-solid fa-server"
         subtitle: "BDD NoCode"
         tag: "database"
+        tagstyle: "is-success"
         url: "https://nocodb.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "pgAdmin"
         icon: "fa-solid fa-server"
         subtitle: "Gestion des PostgreSQL"
         tag: "database"
+        tagstyle: "is-success"
         url: "https://pgadmin.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "Uptime"
         icon: "fa-solid fa-chart-line"
         subtitle: "Service de monitoring"
         tag: "dashboard"
+        tagstyle: "is-info"
         url: "https://uptime.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "Vault"
         icon: "fa-solid fa-vault"
         subtitle: "Hashicorp Vault - Gestion des secrets"
         tag: "security"
+        tagstyle: "is-warning"
         url: "https://vault.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
   #- name: "Other group"
