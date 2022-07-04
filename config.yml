@@ -137,7 +137,7 @@ services:
         subtitle: "Service de SSO"
         tag: "security"
         # Optional tagstyle
-        tagstyle: "is-warning"
+        #tagstyle: "is-warning"
         url: "https://auth.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "Kibana"
