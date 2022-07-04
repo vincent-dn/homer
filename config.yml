@@ -83,15 +83,17 @@ message:
   # refreshInterval: 10000 # Optional: time interval to refresh message
   #
   # Real example using chucknorris.io for showing Chuck Norris facts as messages:
-  url: https://api.chucknorris.io/jokes/random
-  mapping:
-    title: 'id'
-    content: 'value'
-  refreshInterval: 10000
-  style: "is-warning"
-  title: "Optional message!"
-  icon: "fa fa-exclamation-triangle"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  # url: https://api.chucknorris.io/jokes/random
+  # mapping:
+  #   title: 'id'
+  #   content: 'value'
+  # refreshInterval: 10000
+  # style: "is-warning"
+  style: "is-success"
+  title: "Dashboard d'exploitation des servcies Skynet"
+  # icon: "fa fa-exclamation-triangle"
+  icon: "fa-brands fa-cloudscale"
+  content: "Ce dashboard permet de centraliser un accès rapide aux services déployés dans le projet Inetum P&T Skynet."
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -131,13 +133,14 @@ services:
         keywords: "self hosted reddit" # optional keyword used for searching purpose
         url: "https://awx.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank" # optional html tag target attribute
+        class: "green"
       - name: "Keycloak"
         #logo: "assets/tools/sample2.png"
         icon: "fa-brands fa-redhat"
         subtitle: "Service de SSO"
         tag: "security"
         # Optional tagstyle
-        #tagstyle: "is-warning"
+        tagstyle: "is-warning"
         url: "https://auth.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "Kibana"
