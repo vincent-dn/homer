@@ -125,7 +125,7 @@ services:
       - name: "Appsmith"
         #logo: "assets/tools/sample2.png"
         #icon: "fa-solid fa-code"
-        icon: "fa-brands fa-redhat"
+        icon: "fab fa-redhat"
         subtitle: "Application low-code pour gérer N8N"
         tag: "dashboard"
         tagstyle: "is-info"
