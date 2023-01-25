@@ -163,7 +163,7 @@ services:
         icon: "fas fa-chart-line"
         subtitle: "Dashboard d'exploitation"
         tag: "dashboard"
-        tagstyle: "is-warning"
+        tagstyle: "is-info"
         url: "https://kibana-bitnami.apps.genisys.skynet.so.gfi-lab.net"
         target: "_blank"
       - name: "Mattermost"
